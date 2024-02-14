@@ -54,7 +54,7 @@
     }
 
     .anime-player iframe {
-        height: 300px;
+        height: 250px;
         border-radius: 0px;
     }
 
@@ -73,7 +73,6 @@
 
 
 @media (max-width: 400px) {
-
     .release {
         width: calc(50% - 24px);
         margin-bottom: 16px;

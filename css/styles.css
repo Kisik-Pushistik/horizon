@@ -14,9 +14,9 @@ body {
   width: 1280px;
   text-align: center;
   background-image: url(/img/bg.webp);
-  background-size: cover;
+  background-size: auto;
   background-color: #15171e;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .navigation {
@@ -67,28 +67,6 @@ body {
   background-color: #ffd36c;
 }
 
-.podval {
-  display: flex;
-  padding-bottom: 50px;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.podval i {
-  color: #ffb300;
-  padding: 10px 5px 10px 5px;
-  transition: .3s ease;
-}
-
-.podval i:hover {
-  color: white;
-}
-
-.pochta a {
-  color: #ffb300;
-}
-
 /* гл.стр */
 .anime-list {
   display: flex;
@@ -114,18 +92,6 @@ body {
   background-color: #ffb300;
 }
 
-/* .release {
-  width: calc(20% - 12px);
-  margin-bottom: 12px;
-  margin-left: 6px;
-  margin-right: 6px;
-}
-
-.release img {
-  max-width: 100%;
-  transition: .5s ease;
-} */
-
 .release {
   width: calc(20% - 12px);
   margin-bottom: 12px;
@@ -140,10 +106,37 @@ body {
 
 
 .release:hover img {
-  -webkit-filter: saturate(115%);
+  -webkit-filter: saturate(135%);
   -webkit-filter: contrast(115%);
 }
 
+.podval {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.podval a {
+  padding: 15px;
+  color: #a6a4a6;
+  text-decoration: none;
+  font-size: 18px;
+  transition: .3s ease;
+}
+
+.podval i {
+  color: #ffb300;
+  padding-bottom: 40px;
+  transition: .3s ease;
+}
+
+.podval i:hover {
+  color: white;
+}
 
 @font-face {
   font-family: "Gilroy-Regular";
