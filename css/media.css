@@ -65,6 +65,13 @@
         margin-right: 8px;
     }
 
+    .release-c {
+        width: calc(33.33333% - 16px);
+        margin-bottom: 16px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
     .numb-ep {
         width: 50px;
         font-size: 12px;
@@ -79,5 +86,13 @@
         margin-left: 12px;
         margin-right: 12px;
     }
+
+    .release-c {
+        width: calc(50% - 24px);
+        margin-bottom: 16px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
 
 }
