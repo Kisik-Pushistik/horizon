@@ -115,9 +115,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 50px;
+  margin: 40px 20px 20px 20px;
 }
 
 .podval a {
@@ -130,7 +128,7 @@ body {
 
 .podval i {
   color: #ffb300;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   transition: .3s ease;
 }
 
