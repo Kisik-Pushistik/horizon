@@ -1,2 +1,6 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /team.html
+Disallow: /faq.html
+Disallow: /categories/
+Sitemap: https://dhorizon.vip/sitemap.xml

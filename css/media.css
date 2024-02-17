@@ -76,6 +76,27 @@
         width: 50px;
         font-size: 12px;
     }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .new-item {
+        flex-wrap: wrap;
+    }
+
+    .new-item img {
+        width: 100%;
+    }
+
+    .info-table {
+        width: 100%;
+    }
+
+    .page-404 img {
+        width: 100%;
+    }
+
 }
 
 
@@ -93,6 +114,7 @@
         margin-left: 12px;
         margin-right: 12px;
     }
+
 
 
 }
