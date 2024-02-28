@@ -83,10 +83,12 @@
 
     .new-item {
         flex-wrap: wrap;
+        border-radius: 14px 14px 8px 8px;
     }
 
     .new-item img {
         width: 100%;
+        border-radius: 8px 8px 0px 0px;
     }
 
     .info-table {

@@ -53,11 +53,13 @@ body {
   background-color: #eeeeee;
   color: #15171e;
   margin-bottom: 10px;
-
+  font-size: 18px;
+  border-radius: 14px 8px 8px 14px;
 }
 
 .new-item img {
   width: 300px;
+  border-radius: 8px 0px 0px 8px;
 }
 
 .new-item a {
@@ -121,7 +123,7 @@ body {
 .numb-ep {
   z-index: 2;
   position: absolute;
-  width: 70px;
+  width: 90px;
   font-weight: 600;
   border-radius: 0px 5px 5px 0px;
   margin-top: 15px;
