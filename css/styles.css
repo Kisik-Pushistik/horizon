@@ -11,12 +11,9 @@ body {
 }
 
 body {
-  width: 1280px;
-  text-align: center;
-  background-image: url(/img/bg.webp);
-  background-size: auto;
+  margin: 0 auto;
+  width: 100%;
   background-color: #15171e;
-  background-repeat: repeat;
   display: flex;
   flex-direction: column;
 }
@@ -24,7 +21,7 @@ body {
 .navigation {
   display: flex;
   align-items: center;
-  margin: 25px 20px 15px 20px;
+  margin: 25px 80px 15px 80px;
   flex: 0 0 auto;
 }
 
@@ -36,8 +33,8 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
   flex: 1 0 auto;
 }
 
@@ -95,17 +92,16 @@ body {
 }
 
 .donat a {
-  background-color: #ffb300;
-  padding: 10px 76px;
+  color: #ffb300;
+  padding: 0px 10px 0px 10px;
   border-radius: 8px;
-  color: #15171e;
   font-weight: 600;
   text-decoration: none;
   transition: .3s ease;
 }
 
 .donat a:hover {
-  background-color: #ffd36c;
+  color: #ffffff;
 }
 
 /* гл.стр */
@@ -114,77 +110,35 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
   margin: 0 auto;
-  padding-bottom: 20px;
-  margin-left: 7px;
-  margin-right: 7px;
+  padding-bottom: 80px;
+  margin-left: 80px;
+  margin-right: 80px;
   flex-grow: 1;
 }
 
-.numb-ep {
-  z-index: 2;
-  position: absolute;
-  width: 90px;
-  font-weight: 600;
-  border-radius: 0px 5px 5px 0px;
-  margin-top: 15px;
-  text-align: center;
-  padding: 5px;
-  font-size: 12px;
-  color: #15171e;
-  background-color: #ffb300;
-}
-
-.release {
-  width: calc(20% - 12px);
-  margin-bottom: 12px;
-  margin-left: 6px;
-  margin-right: 6px;
-}
-
-.release img,
-.release-c img {
-  max-width: 100%;
-  transition: .5s ease;
-}
-
-.release,
-.release-c:hover img {
-  filter: saturate(135%);
-  filter: contrast(115%);
-}
-
 .release-c {
-  width: calc(16.6% - 6px);
+  width: calc(14.2% - 6px);
   margin-bottom: 6px;
   margin-left: 3px;
   margin-right: 3px;
+  text-align: center;
 }
 
-.podval {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 40px 20px 20px 20px;
-  flex-shrink: 0;
+.release-c img {
+  width: 100%;
 }
-
-.podval a {
-  padding: 15px;
-  color: #a6a4a6;
+.release-c a {
   text-decoration: none;
-  font-size: 18px;
-  transition: .3s ease;
 }
 
-.podval i {
-  color: #ffb300;
-  padding-bottom: 20px;
-  transition: .3s ease;
-}
 
-.podval i:hover {
-  color: white;
+.release-c p {
+  margin: 0px 10px 0px 10px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #a6a4a6;
 }
 
 .page-404 {
@@ -195,13 +149,6 @@ body {
 .page-404 img {
   width: 500px;
   border-radius: 8px;
-}
-
-@font-face {
-  font-family: "Gilroy-Regular";
-  src: url("/fonts/Gilroy-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
 }
 
 .endserial {
