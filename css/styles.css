@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 html,
 body {
   padding: 0;
   margin: 0 auto;
-  font-family: 'Gilroy-Regular', sans-serif;
+  font-family: 'Mulish', sans-serif;
   color: #eeeeee;
   height: 100%;
 }
@@ -17,6 +16,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+/* Меню */
 
 .navigation {
   display: flex;
@@ -30,44 +31,6 @@ body {
   width: 200px;
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  margin-left: 40px;
-  margin-right: 40px;
-  flex: 1 0 auto;
-}
-
-.main h2 {
-  padding: 0px 0px 10px 0px;
-  margin: 0;
-}
-
-.new-item {
-  width: 100%;
-  display: flex;
-  text-align: left;
-  background-color: #eeeeee;
-  color: #15171e;
-  margin-bottom: 10px;
-  font-size: 18px;
-  border-radius: 14px 8px 8px 14px;
-}
-
-.new-item img {
-  width: 300px;
-  border-radius: 8px 0px 0px 8px;
-}
-
-.new-item a {
-  text-decoration: none;
-  font-weight: 600px;
-}
-
-.text-news {
-  padding: 20px;
-}
-
 .menu {
   display: flex;
   padding-left: 25px;
@@ -76,23 +39,24 @@ body {
 
 .menu a {
   padding: 15px;
-  color: #a6a4a6;
+  color: #ffffff;
   text-decoration: none;
   font-size: 18px;
   transition: .3s ease;
+  text-shadow: 1px 1px 1px rgba(26, 26, 26, 0.555);
 }
 
 .menu a:hover {
   color: #fff;
 }
 
-.donat {
+.soc-seti {
   text-align: right;
   display: flex;
 }
 
-.donat a {
-  color: #ffb300;
+.soc-seti a {
+  color: #ffffff;
   padding: 0px 10px 0px 10px;
   border-radius: 8px;
   font-weight: 600;
@@ -100,9 +64,6 @@ body {
   transition: .3s ease;
 }
 
-.donat a:hover {
-  color: #ffffff;
-}
 
 /* гл.стр */
 .anime-list {
@@ -117,20 +78,20 @@ body {
 }
 
 .release-c {
-  width: calc(14.2% - 6px);
-  margin-bottom: 6px;
-  margin-left: 3px;
-  margin-right: 3px;
+  width: calc(14.2% - 12px);
+  margin-bottom: 12px;
+  margin-left: 6px;
+  margin-right: 6px;
   text-align: center;
 }
 
 .release-c img {
   width: 100%;
 }
+
 .release-c a {
   text-decoration: none;
 }
-
 
 .release-c p {
   margin: 0px 10px 0px 10px;
@@ -141,6 +102,82 @@ body {
   color: #a6a4a6;
 }
 
+/* Страница релиза */
+.cover {
+    z-index: -3;
+    width: 100%;
+    position: absolute;
+
+}
+
+.cover img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.cover-anime {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 300px;
+  max-width: 1280px;
+}
+
+.realease-info {
+  text-align: center;
+  max-width: 650px;
+  margin-top: 25px;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.cover-anime h1 {
+  padding: 0;
+  margin: 0px;
+  text-align: center;
+}
+
+.cover-anime h2 {
+  padding: 0;
+  margin: 0px;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 100;
+  color: #858585;
+}
+
+
+/* Жанры */
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.categories a {
+  text-decoration: none;
+}
+
+
+.zhanr {
+  padding: 8px;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #d6d6d6;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+
+
+/* 404 */
 .page-404 {
   flex: 1 0 auto;
   margin: 20px;
@@ -151,13 +188,25 @@ body {
   border-radius: 8px;
 }
 
-.endserial {
-  background-color: #ffb300;
-  padding: 10px 76px;
+
+/* Плеер и комментарии */
+.anime-player {
+  position: static;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  min-height: auto;
+  max-height: none;
+  min-width: auto;
+
+}
+
+.anime-player iframe {
+  width: 100%;
   border-radius: 8px;
-  font-size: 20px;
-  color: #15171e;
-  font-weight: 600;
-  text-decoration: none;
-  margin: 0px 15px 15px 15px;
+}
+
+.comments {
+  margin-top: 25px;
+  border-radius: 25px;
 }

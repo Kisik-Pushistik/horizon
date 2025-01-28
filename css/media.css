@@ -1,21 +1,24 @@
-@media (max-width: 823px) {
-    body {
-        width: 100%;
-        background-image: none;
-    }
-
+@media (max-width: 700px) {
     .cover-anime {
-        background-image: none !important;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .realease-info {
+        text-align: left;
     }
 
-    .poster-mobile {
-        height: auto;
-        margin: 0 auto;
+    .menu {
+        padding-left: 0px;
     }
 
-    .poster-mobile img {
-        display: block;
+    .menu a { 
+        text-align: center;
+        text-shadow: 1px 1px 1px rgb(26, 26, 26);
+    }
 
+    .logo a {
+        shadow: 1px 1px 1px rgb(26, 26, 26);
     }
 
     .navigation {
@@ -24,39 +27,25 @@
         align-items: center;
     }
 
-    .menu a {
-        font-size: 18px;
-        padding: 10px;
-    }
-
-    .menu {
-        padding-left: 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    .realease-info {
-        width: 100%;
-    }
-
-    .breadcrumb {
-        display: none;
-    }
-
-    .button-episode {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .button-episode a {
-        padding-bottom: 10px;
-    }
-
     .anime-player iframe {
-        height: 200px;
-        border-radius: 0px;
+        height: 300px;
     }
+
+    .anime-list {
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: center;
+    }
+
+    .release-c {
+        width: 46%;
+
+    }
+}
+
+
+
+/* @media (max-width: 823px) {
 
     .release {
         width: calc(33.33333% - 16px);
@@ -119,4 +108,4 @@
 
 
 
-}
+} */
